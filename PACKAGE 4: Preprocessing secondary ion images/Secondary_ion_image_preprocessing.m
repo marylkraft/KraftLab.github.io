@@ -1,3 +1,8 @@
+% Copyright 2022 University of Illinois Board of Trustees. All Rights Reserved.
+% These codes were authored by Melanie A. Brunet and Brittney L. Gorman under the supervision of Mary L. Kraft. 
+% This file is part of KraftLab.github.io repository, which is released under specific terms.  
+% See file License.txt file or go to https://creativecommons.org/licenses/by/4.0/ for full license details.
+
 %% Crop out charging regions of SI Matrix
 N14(:,:,521:530)=[]; %Crop planes 521-530 out because on that file there was a signal loss
 N14(:,:,505) = N14(:,:,504); %Eliminate plane 505 and copy plane 504 into plane 504.
