@@ -1,3 +1,7 @@
+% Copyright 2022 University of Illinois Board of Trustees. All Rights Reserved.
+% These codes were authored by Melanie A. Brunet and Brittney L. Gorman under the supervision of Mary L. Kraft. 
+% This file is part of KraftLab.github.io repository, which is released under specific terms.  See file License.txt file or go to https://creativecommons.org/licenses/by/4.0/ for full license details.
+
 % This code is for the surface plots and top-down images in the paper
 %% FIB 7 (surface plot) - For paper
 
