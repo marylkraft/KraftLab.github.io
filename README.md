@@ -8,6 +8,7 @@ Authored by:
    2. Brittney L. Gorman, Center for Biophysics and Quantitative Biology, University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA
    3. Mary L. Kraft, Department of Chemical and Biomolecular Engineering, Center for Biophysics and Quantitative Biology, and Department of Chemistry,             University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA
 Melanie A. Brunet and Brittney L. Gorman contributed equally to this work.
+
 Citation:
 
 Correspondence should be addressed to M.L.K. at mlkraft@illinois.edu 
@@ -15,12 +16,14 @@ Correspondence should be addressed to M.L.K. at mlkraft@illinois.edu
 These codes were authored by Melanie A. Brunet and Brittney L. Gorman under the supervision of Mary L. Kraft.
 
 PACKAGE 1: Image preprocessing
+
 	This package is used to preprocess the NanoSIMS depth profiling image data.
-	MATLAB file: Preprocessing_Crop_Masking_IlluminationCorrection_LowerBaseline.m  
+	MATLAB file: Preprocessing_Crop_Masking_IlluminationCorrection_LowerBaseline.m 
 	Cropping is applied to the secondary electron matrix and all secondary ion matices.
 	Masking, illumination correction, and baseline lowering are applied to the secondary electron matrix. 
 
 PACKAGE 2: Alignment functions
+
 	This package is used to align the secondary electron image planes in the depth profile acquired with a NanoSIMS instrument.
 	MATLAB files: ROI_align.m
 		            Drift_correcting.m
