@@ -1,4 +1,8 @@
 %% Load the data
+% Copyright 2022 University of Illinois Board of Trustees. All Rights Reserved.
+% These codes were authored by Melanie A. Brunet and Brittney L. Gorman under the supervision of Mary L. Kraft. 
+% This file is part of KraftLab.github.io repository, which is released under specific terms.  See file License.txt file or go to https://creativecommons.org/licenses/by/4.0/ for full license details.
+
 dir1 = '/Users/admin/Box Sync/Melanie and Brittney shared Box/Depth/Text files 100 -160';
 D = dir(fullfile(dir1,'*.txt'));
 file_num = length(D);
