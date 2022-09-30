@@ -9,11 +9,12 @@ Authored by:
    3. Mary L. Kraft, Department of Chemical and Biomolecular Engineering, Center for Biophysics and Quantitative Biology, and Department of Chemistry,             University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA
 Melanie A. Brunet and Brittney L. Gorman contributed equally to this work.
 
-Citation:
+Citation for article: TO BE INSERTED
 
 Correspondence should be addressed to M.L.K. at mlkraft@illinois.edu 
 
 These codes were authored by Melanie A. Brunet and Brittney L. Gorman under the supervision of Mary L. Kraft.
+Questions regarding the code should be directed to Brittney Gorman (gormanb9@gmail.com) and Melanie Brunet (mab15@illinois.edu).
 
 PACKAGE 1: Image preprocessing
 
