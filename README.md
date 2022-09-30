@@ -28,34 +28,37 @@ PACKAGE 2: Alignment functions
 	MATLAB files: ROI_align.m
 		      Drift_correcting.m
 		      Course_align.m
-                      Fine_align.m
+		      Fine_align.m
 	ROI_align.m, Course_align.m, and Fine_align.m are functions that are called in Drift_correcting.m.
 	
 PACKAGE 3: Morphology reconstruction
+	
 	This package is used to reconstruct the sample's morphology and visualize the results.
-	MATLAB files: Morphology_reconstruction_DSR.m
-		            Surface_plots.m
-		            Relative_height_difference.m
+	MATLAB files: 	Morphology_reconstruction_DSR.m
+			Surface_plots.m
+		        Relative_height_difference.m
 	Morphology_reconstruction_DSR.m is used to reconstruct the sample's morphology from the secondary electron pixel intensities.
 	Surface_plots.m generates a 3D rendering for each morphology reconstructions.
 	Relative_height_difference.m calculates the relative height difference between the morphology reconstruction and the sample topography measured with AFM     and creates an image that shows these differences.
 	
 PACKAGE 4: Preprocessing secondary ion images
+	
 	This package is used to preprocess the secondary ion images in the depth profile acquired with a NanoSIMS instrument.
 	MATLAB files: Secondary_ion_image_preprocessing.m
-		            Ratio_matrices.m
-		            Masking_pixels.m
-		            Secondary_ion_image_alignment.m 
+		      Ratio_matrices.m
+		      Masking_pixels.m
+		      Secondary_ion_image_alignment.m 
 	Ratio_matrices.m, Masking_pixels.m, and Secondary_ion_image_alignment.m are functions that are called in Secondary_ion_image_preprocessing.m.
 	Ratio_matrices.m is used to generate iosotope enrichment images.
 	Secondary_ion_image_alignment.m is used to align the secondary ion image planes using the translations defined by the codes in PACKAGE 2. 
 	Masking_pixels.m smoothes the secondary ion images for noise reduction. 
 
 PACKAGE 5: Depth correction
+
 	This package is used depth correct the isotope enrichment images using the heights derived from the morphology reconstruction and to generate 3D renderings   of the depth corrected data.
 	MATLAB files: Enrichment_images.m
-		            Z_translate.m
-		            Colocalize_cholesterol_and_sphingolipids-Figure.m
+		      Z_translate.m
+		      Colocalize_cholesterol_and_sphingolipids-Figure.m
 	Enrichment_images.m generates 3D renderings of the iosotope enrichment images generated with the codes in PACKAGE 4.  
 	Z_translate.m depth corrects the isotope enrichment images using the heights derived from the morphology reconstruction.
 	Colocalize_cholesterol_and_sphingolipids-Figure.m generates an overlay of the two component-specific isotope enrichment images.
