@@ -26,9 +26,9 @@ PACKAGE 2: Alignment functions
 
 	This package is used to align the secondary electron image planes in the depth profile acquired with a NanoSIMS instrument.
 	MATLAB files: ROI_align.m
-		            Drift_correcting.m
-		            Course_align.m
-                Fine_align.m
+		      Drift_correcting.m
+		      Course_align.m
+                      Fine_align.m
 	ROI_align.m, Course_align.m, and Fine_align.m are functions that are called in Drift_correcting.m.
 	
 PACKAGE 3: Morphology reconstruction
