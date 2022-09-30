@@ -1,4 +1,8 @@
 %% Coarse Align 
+% Copyright 2022 University of Illinois Board of Trustees. All Rights Reserved.
+% These codes were authored by Melanie A. Brunet and Brittney L. Gorman under the supervision of Mary L. Kraft. 
+% This file is part of KraftLab.github.io repository, which is released under specific terms.  See file License.txt file or go to https://creativecommons.org/licenses/by/4.0/ for full license details.
+
 function [CalignData,Trans] = Coarse_align(Data,num,Max,Min,Iter)
 %Data: Data that needs to be aligned due to drift
 %num: number of files that should be shift at one time
