@@ -9,7 +9,7 @@ Authored by:
    3. Mary L. Kraft, Department of Chemical and Biomolecular Engineering, Center for Biophysics and Quantitative Biology, and Department of Chemistry,             University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA
 Melanie A. Brunet and Brittney L. Gorman contributed equally to this work.
 
-Citation for article: TO BE INSERTED
+Citation for article: Melanie A. Brunet, Brittney L. Gorman and Mary L. Kraft. "Depth Correction of 3D NanoSIMS Images Shows Intracellular Lipid and Cholesterol Distributions while Capturing the Effects of Differential Sputter Rate," ACS Nano 2022, 16 (10), 16221-16233. DOI: 10.1021/acsnano.2c05148.
 
 Correspondence should be addressed to M.L.K. at mlkraft@illinois.edu 
 
